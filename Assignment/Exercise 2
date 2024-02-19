@@ -1,0 +1,2 @@
+let name = "Jhon";
+console.log("Hi "+name", lets learn TypeScript");
