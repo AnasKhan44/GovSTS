@@ -1,0 +1,5 @@
+let vehicle:string[]= ["Cultus","Kawasaki e-1"];
+let msg:string[]= [`I like driving ${[vehicle[0]]}`,`I would like to own ${[vehicle[1]]}`]
+for(let i = 0; i<2;i++){
+console.log(msg[i])
+}
