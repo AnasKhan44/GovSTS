@@ -1,3 +1,5 @@
 let x = "Jhon"
 console.log("Hi "+x.toUpperCase());
 console.log("Hi "+x.toLowerCase());
+//for titlecase i encountered error while importing a library,
+//plus creating a function would've been easier if i had enough experience ( i did'nt want to copy paste )
