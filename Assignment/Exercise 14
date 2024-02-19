@@ -1,0 +1,4 @@
+let guests: string[] = ["Ali","Faizan","Hasnain"]
+for (let i = 0;i<guests.length; i++){
+    console.log(`Hello ${guests[i]}, You are invited to Dinner at my House, on Date : 2-12-24`);
+}
