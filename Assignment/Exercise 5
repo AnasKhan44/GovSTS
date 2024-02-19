@@ -1,0 +1,2 @@
+let famous_person = "Be yourself; everyone else is already taken. -Oscar Wilde";
+console.log(famous_person);
