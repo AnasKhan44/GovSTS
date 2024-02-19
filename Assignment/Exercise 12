@@ -1,0 +1,4 @@
+let namess: string[] = ["Aakif", "Jawad", "Fahad", "Darab", "Hadi"];
+for (let i = 0; i < namess.length; i++) {
+    console.log(`Hi ${namess[i]}, how are you?`);
+}
