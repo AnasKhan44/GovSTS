@@ -1,1 +1,3 @@
-
+let x = "Jhon"
+console.log("Hi "+x.toUpperCase());
+console.log("Hi "+x.toLowerCase());
