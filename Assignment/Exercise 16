@@ -1,0 +1,17 @@
+let guests: string[] = ["Ali","Faizan","Hasnain"]
+
+for (let i = 0;i<guests.length; i++){
+    console.log(`Hello ${guests[i]}, You are invited to Dinner at my House, on Date : 2-12-24`);
+}
+console.log(`Unfortunately, our guest ${[guests[2]]} could not make it that day\n`)
+guests.splice(2,1,"Hasan")
+for (let i = 0;i<guests.length; i++){
+    console.log(`Hello ${guests[i]}, You are invited to Dinner at my House, on Date : 2-12-24`);
+}
+console.log("\nSince we found a bigger table, we could invite more people!\n")
+guests.splice(0,0,"Mahad")
+guests.splice(3,0,"Aaiem")
+guests.splice(6,0,"Abdullah")
+for (let i = 0;i<guests.length; i++){
+    console.log(`Hello ${guests[i]}, You are invited to Dinner at my House, on Date : 2-12-24`);
+}
