@@ -1,0 +1,7 @@
+console.log(4+4)   //program 1
+console.log(2*4)   //here i have created a program which does arithmetic operations  
+console.log(12-4)  //like addition, subtraction, multiplication, division
+console.log(16/2)  //to make the number 8
+
+let famous_person = "Be yourself; everyone else is already taken. -Oscar Wilde";  //program 2
+console.log(famous_person); //this prints the qoute of a famous person stored in a variable
