@@ -1,0 +1,5 @@
+let name: string = "\t John Wick \n";
+console.log("Name with whitespace: ", name);
+
+let strip_Name: string = name.trim();
+console.log("Stripped name: ", strip_Name);
