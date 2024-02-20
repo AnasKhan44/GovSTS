@@ -1,0 +1,22 @@
+//True
+let car = 'mercedez';
+console.log(`Is ${car} == 'mercedez'? ${[car == 'mercedez']}.`)
+let car2 = 'suzuki'
+console.log(`Is ${car2} == 'suzuki' ${[car2 == 'suzuki']} `)
+let car3 = 'toyota'
+console.log(`Is ${car3} == 'toyota' ${[car3 == 'toyota']} `)
+let car4 = 'honda'
+console.log(`Is ${car4} == 'honda' ${[car4 == 'honda']} `)
+let car5 = 'bmw'
+console.log(`Is ${car5} == 'bmw' ${[car5 == 'bmw']} `)
+//false
+let bike = 'kawasaki'
+console.log(`Is ${bike} == 'honda' ${[bike == 'honda']} `)
+let bike2 = 'suzuki'
+console.log(`Is ${bike2} == 'kawasaki' ${[bike2 == 'kawasaki']} `)
+let bike3 = 'honda'
+console.log(`Is ${bike3} == 'piaggio' ${[bike3 == 'piaggio']} `)
+let bike4 = 'piaggio'
+console.log(`Is ${bike4} == 'Yamaha' ${[bike4 == 'Yamaha']} `)
+let bike5 = 'Yamaha'
+console.log(`Is ${bike5} == 'honda' ${[bike5 == 'honda']} `)
