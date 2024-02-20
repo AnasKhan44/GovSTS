@@ -1,0 +1,16 @@
+const fruits:string[]=["apple", "grape", "kiwi"];
+if(fruits.includes("apple")){
+    console.log("I love apples");
+}
+if(fruits.includes("kiwi")){
+    console.log("Kiwi the best")
+}
+if(fruits.includes("grape")){
+    console.log("Grapes are cool")
+}
+if(fruits.includes("peach")){
+    console.log(" :( no peaches for now")
+}
+if(fruits.includes("banana")){
+    console.log("banana not found")
+}
