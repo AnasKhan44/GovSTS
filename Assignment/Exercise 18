@@ -1,0 +1,16 @@
+const favLocation: string[]= ["Makka, Suadia Arabia","Moscow, Russia","Kyoto, Japan","Cappadocia, Turkey","Machu Picchu, Peru"]
+const x = [...favLocation].sort()
+console.log(favLocation)
+console.log(x)// 1
+
+const y = [...favLocation].sort()
+console.log(favLocation)
+console.log(y.reverse())//2
+
+const z = [...favLocation].reverse()
+console.log(favLocation)
+console.log(z)
+console.log(z.reverse())//3
+
+console.log(favLocation.sort())//4
+console.log(favLocation.reverse())
