@@ -1,0 +1,8 @@
+const listCountry:string[]=["Afghanistan","Andorra","Pakistan","China","Iran","UAE","UK","Canada"];
+
+type Country = { country: string };
+let countries : Country[] = [
+    {country:"Afghanistan"},{country:"Andorra"},
+    {country:"Pakistan"},{country:"China"},{country:"Iran"},
+    {country:"UAE"},{country:"UK"},{country:"Canada"}
+];
