@@ -1,0 +1,6 @@
+const usernames:string[]=['admin','eric','jhon','sam','mark']
+let user = usernames[1]
+if(user === 'admin'){
+    console.log('Hello admin!, Do you want to see the status of report');
+}
+else console.log(`Hi ${user}`);
