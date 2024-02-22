@@ -12,5 +12,5 @@ for(let i=0;i<magician_names1.length;i++) {
    show_magician1('',magician_names1[i])
 }
 for(let i=0;i<copy_names.length;i++){
-    show_magician1(make_great1(),copy_names[i])
+    show_magician1(copy_names[i],make_great1())
 }
