@@ -1,0 +1,10 @@
+var favPiz:string[]=['fajita','calzon','arabian tikka']
+for(let i=0;i<3;i++){
+    if(i==0){
+    console.log(`I love ${favPiz[i]} `)
+}
+    else if(i==1){
+        console.log(`${favPiz[i]} is the best`)
+    }
+    else console.log(`I also like ${favPiz[i]}`)
+}
