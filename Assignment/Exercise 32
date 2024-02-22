@@ -1,0 +1,15 @@
+const current_user =['bob','mark','frank','james','jhon']
+var new_users =['emily','emma','sara','jhon','bob']
+function unique_name(username: string, existing_users: string[]): boolean {
+    const lowercase_username = username.toLowerCase();
+    return !existing_users.some(user => user.toLowerCase() === lowercase_username);
+}
+for (let userlogin of new_users) {
+    if(unique_name(userlogin,current_user)){
+        console.log(`${userlogin} is available.`);
+        current_user.push(userlogin);
+    }else{
+        console.log(`${userlogin} is not available, try again.`);
+    }
+}
+ 
