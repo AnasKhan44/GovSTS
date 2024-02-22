@@ -1,0 +1,11 @@
+    return `${city}, ${country}.`
+}
+let city='Lahore'
+let country='Pakistan'
+console.log(city_country(city,country));
+city='New York'
+country='USA'
+console.log(city_country(city,country))
+city='Tokyo'
+country= 'Japan'
+console.log(city_country(city,country))
