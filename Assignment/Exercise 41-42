@@ -1,0 +1,16 @@
+function show_magician(index:string,name?:string):string{
+    console.log(`${index} ${name}`)
+    return index
+}
+function make_great():string{
+    let name='The Great'
+    return name
+}
+const magician_names:string[]=['leonardo','Da Vinci','Albert'] 
+for(let i=0;i<magician_names.length;i++){    
+    show_magician(magician_names[i],'')
+}
+
+for(let i=0;i<magician_names.length;i++){    
+    show_magician(make_great(),magician_names[i])
+}
