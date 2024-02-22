@@ -1,0 +1,11 @@
+
+function make_shirts(msg:string,size='large'){
+    console.log(`We are making ${size} shirt with the message "${msg}"`);
+}
+let wear = 'medium'
+let msg = 'I love Typescript'
+make_shirts(msg)
+make_shirts(msg,wear)
+let small = 'small'
+let new_msg='Sup peeps'
+make_shirts(new_msg,small)
