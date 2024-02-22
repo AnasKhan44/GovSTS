@@ -1,0 +1,21 @@
+const animals: string[] = ["Dog", "Cat", "Rabbit"];
+
+for (const animal of animals) {
+    console.log(`Animal: ${animal}`);
+}
+for (const animal of animals) {
+    switch (animal) {
+        case "Dog":
+            console.log(`${animal} would make a great pet.`);
+            break;
+        case "Cat":
+            console.log(`${animal} is an independent and playful companion.`);
+            break;
+        case "Rabbit":
+            console.log(`${animal} is gentle and easy to care for.`);
+            break;
+        default:
+            console.log(`no information about: ${animal}`);
+    }
+}
+console.log("any of these pets would make a great pet")
