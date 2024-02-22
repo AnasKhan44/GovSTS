@@ -1,0 +1,11 @@
+function describe_sandwich(...items: string[]): void {
+    const sandwichSummary = `You ordered a sandwich with: ${
+        items.length > 0 ? items.join(', ') : 'no items'
+    }.`;
+
+    console.log(sandwichSummary)
+}
+
+describe_sandwich('lettuce', 'tomato', 'cheese','mayo','chicken')
+describe_sandwich('turkey', 'avocado', 'mayo','sauce')
+describe_sandwich()
