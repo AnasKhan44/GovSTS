@@ -1,0 +1,17 @@
+function make_album(artistName: string, albumTitle: string, numTracks?: number): Record<string, unknown> {
+    const album: Record<string, unknown> = {
+        artist: artistName,
+        title: albumTitle,
+    };
+    if (numTracks !== undefined) {
+        album.o = numTracks;
+    }
+    return album;
+}
+const album1 = make_album("Bruce Springsteen", "The Rising", 12);
+const album2 = make_album("Adele", "21", 90);
+const album3 = make_album("Coldplay", "Viva la Vida", 10);
+
+console.log(album1);
+console.log(album2);
+console.log(album3);
