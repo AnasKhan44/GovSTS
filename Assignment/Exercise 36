@@ -1,0 +1,6 @@
+function make_shirts(msg:string,size:string){
+    console.log(`We are making ${size} shirt with the message "${msg}"`);
+}
+let wear = 'small'
+let msg = 'hello peeps'
+make_shirts(msg,wear)
