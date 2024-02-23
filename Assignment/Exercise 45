@@ -1,0 +1,21 @@
+interface Car {
+    manufacturer: string;
+    model: string;
+    color?: string;
+    features?: string[];
+}
+
+function carInfo(manufacturer: string, model: string, ...args: any[]): Car {
+    let car: Car = {
+        manufacturer: manufacturer,
+        model: model,
+    };
+    if (args.length > 0) {
+        car.color = args[0];
+        car.features = args.slice(1);
+    }
+    return car;
+}
+
+console.log(carInfo('Toyota', 'Celica SR5', 'red', 'Air conditioning', 'Leather seats'));
+console.log(carInfo('Ford', 'Mustang', 'green', 'Power windows', 'Memory seats'));
